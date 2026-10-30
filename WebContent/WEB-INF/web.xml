@@ -1,0 +1,43 @@
+<web-app>
+
+<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>servlet.LoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AddReviewServlet</servlet-name>
+    <servlet-class>servlet.AddReviewServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AddReviewServlet</servlet-name>
+    <url-pattern>/addReview</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ViewReviewsServlet</servlet-name>
+    <servlet-class>servlet.ViewReviewsServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ViewReviewsServlet</servlet-name>
+    <url-pattern>/view</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>Top5Servlet</servlet-name>
+    <servlet-class>servlet.Top5Servlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Top5Servlet</servlet-name>
+    <url-pattern>/top5</url-pattern>
+</servlet-mapping>
+
+</web-app>

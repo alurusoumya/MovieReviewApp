@@ -1,0 +1,5 @@
+<hibernate-configuration>
+ <session-factory>
+  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/moviedb</property>
+ </session-factory>
+</hibernate-configuration>
